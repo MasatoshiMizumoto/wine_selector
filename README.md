@@ -15,6 +15,7 @@ Windowsアプリケーションを起動させる[Wine](https://www.winehq.org/)
 ## 導入
 
 - 各Windowsアプリケーションのフォルダを更に1つのフォルダでまとめ、その中にwine_selector.shを配置します。
+- wine_selector.shを編集し、2行目を纏めたフォルダに設定します。（デフォルトでは~/Documents/です）
 - wine_selector.shを実行して、exeファイルの一覧が出れば使えると思います。
 ```
 $ sh wine_selector.sh
