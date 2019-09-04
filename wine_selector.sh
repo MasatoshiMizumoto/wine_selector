@@ -1,2 +1,3 @@
 #!/bin/sh
-find ./ -name "*.exe" | fzf | xargs wine
+dir=~/Documents/
+find $dir -name "*.exe" | fzf | xargs wine
