@@ -15,12 +15,21 @@ Windowsアプリケーションを起動させる[Wine](https://www.winehq.org/)
 ## 導入
 
 - 各Windowsアプリケーションのフォルダを更に1つのフォルダでまとめ、その中にwine_selector.shを配置します。
+- 下記はDocumentsに配置した例です。
+```
+Documents
+├── win-app-1
+│   └── hogehoge.exe
+├── win-app-2
+│   └── fugafuga.exe
+└── wine_selector.sh
+```
 - wine_selector.shを編集し、2行目を纏めたフォルダに設定します。（デフォルトでは~/Documents/です）
 - wine_selector.shを実行して、exeファイルの一覧が出れば使えると思います。
 ```
 $ sh wine_selector.sh
 ```
-- aliasで短いコマンドとして登録したほうが良いと思います。
+- zsh使いの方はaliasで短いコマンドとして登録したほうが良いと思います。
 ```
 alias ws='sh wine_selector.sh'
 ```
