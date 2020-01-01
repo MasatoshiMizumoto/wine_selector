@@ -6,6 +6,7 @@ wine_selector.sh
 Windowsアプリケーションを起動させる[Wine](https://www.winehq.org/)をfzfでパイプしたシェルスクリプトです。
 - 実行場所から下位のディレクトリへ対しexeファイルを探し出し、その結果からそのままカーソルで実行したいexeを選択できます。
 - macOS(Mojave)で動作確認しています。
+- CatalinaではWineが動作しなくなったので、今(2020.01現在)は使えません。
 
 ## 動作条件
 
@@ -40,4 +41,4 @@ alias ws='sh wine_selector.sh'
 
 ## 作成者
 
-[@miima_17](https://twitter.com/miima_17)
+[MasatoshiMizumoto](https://github.com/MasatoshiMizumoto)
